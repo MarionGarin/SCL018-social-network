@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <link>
-  <meta charset="UTF-8">
+<meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/style.css"/>
-
+  
   <title>Kambalache</title>
 </head>
 <body>
 
   <div id="root"></div>
-
+   
   <script type="module">
-    // Import the functions you need from the SDKs you need
+    
+     /* Aquí abajo se importan las funciones que ocuparemos, desde los SDK de Firebase (los SDK son kits de desarrollo de 
+    software, es decir, herramientas creadas por Firebase para que podamos programar en ese entorno específico) */
+
     import { initializeApp } from "https://www.gstatic.com/firebasejs/9.4.1/firebase-app.js";
-    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.4.1/firebase-analytics.js";
-    // TODO: Add SDKs for Firebase products that you want to use
-    // https://firebase.google.com/docs/web/setup#available-libraries
   
-    // Your web app's Firebase configuration
-    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    // Lo que hay aquí abajo es un OBJETO {}. Una vez que alguien registra su proyecto en Firebase, 
+    // obtiene un objeto como este, que contiene la configuración de Firebase específica para ese proyecto. 
+    // De esa forma podemos conectar nuestra app con los recursos que dicha plataforma nos ofrece. 
     const firebaseConfig = {
       apiKey: "AIzaSyCOgBS0CawN0G1YbGD9y-Yd8Fx1AyWfQl0",
       authDomain: "kambalache-scl018.firebaseapp.com",
@@ -28,13 +29,48 @@
       storageBucket: "kambalache-scl018.appspot.com",
       messagingSenderId: "885086818843",
       appId: "1:885086818843:web:3778a32b3a0f5888dbdebe",
-      measurementId: "G-ZFMM9GB4C3"
     };
   
-    // Initialize Firebase
+    /* Aquí abajo se inicializa Firebase, es decir se usa la función initializeApp pasándole como argumento la constante
+     firebaseConfig de la línea 25 (que en este caso además es un objeto), que contiene la información de configuración, 
+     y así poder utilizar los recursos de Firebase */
+
     const app = initializeApp(firebaseConfig);
-    const analytics = getAnalytics(app);
+  
+    /* Línea 2: aquí se establece el atributo "lang", que define el idioma en que estará el lenguaje del documento
+    Se pone dentro de la etiqueta html para que abarque todo el documento, porque se hereda a todos los demás elementos */
+    
+    /* A partir de la línea 4 vienen una serie de etiquetas "meta", que contienen datos descriptivos de la página que no serán 
+    visibles por el usuario, sino que están destinados a ser leídos por el servidor, el navegador, y programas automáticos (bots).
+
+    /* Línea 4: aquí se define el tipo de codificación de caracteres utilizada, para que el navegador la procese.
+     UTF-8 es el sistema de codificación que permite leer todo tipo de caracteres, no sólo del alfabeto latino */
+
+    /* Línea 5: aquí se introduce una forma de añadir responsividad a la página, para que se vea bien en diversos tipos
+     de pantallas. Viewport se refiere a la ventana gráfica, es decir, el área de la página web que el usuario ve.
+     Al definir su content como "device-width" se está indicando que se ajustará a la anchura del dispositivo. La initial-scale
+      determina el nivel de zoom que tendrá la página al cargarse por primera vez. El valor 1.0 representa que no tendrá 
+      zoom inicial.*/
+
+      /* Línea 6: la etiqueta http-equiv permite establecer compatibilidad con ciertos navegadores. En este caso, al definir
+    content "ie=edge", se está diciendo que para Internet Explorer se utilizarán los estándares del navegador Edge, que ahora es
+    el navegador oficial de Microsoft */
+
+    /* Línea 13: por convención, cuando se debe imprimir html dinámico que se añada al DOM, se usa un div con id root como
+    "nodo raíz", para que todo lo que se cree de esa forma se añada ahí. En teoría, debería usarse la etiqueta body para 
+    imprimir dentro de ella, pero prefiere usarse ese div root para evitar que existan choques de código con otros elementos 
+    que puedan estar contenidos en el body, como los scripts, por ejemplo.
+
+    /* Líneas 15 y 63: aquí se usan los Módulos establecidos en ECMAScript. Se trata de bloques de código JS que se conectan
+    entre diversos archivos, para permitir una mejor sistematización. De esta forma se evita escribir demasiado código en un
+    solo archivo. Ambas líneas muestran distintas formas de hacer esta misma conexión */
+    
   </script>
+    
+       
   <script type="module" src="main.js"></script>
 </body>
+
 </html>
+
+

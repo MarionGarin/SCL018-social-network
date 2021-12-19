@@ -7,6 +7,8 @@ export const changeRoute = (hash) => {
   root.innerHTML = '';
 
   switch (hash) {
+    case '':
+    case '#':
     case '#/':
     case '#/login':
       root.appendChild(loginUser());
@@ -18,6 +20,6 @@ export const changeRoute = (hash) => {
       root.appendChild(home());
       break;
     default:
-      alert('fallaste!');
+      alert('¡Ups, parece que te has equivocado!');
   }
 };

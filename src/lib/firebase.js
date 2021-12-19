@@ -104,6 +104,7 @@ export const signIn = (email, password) => {
     });
 };
 
+// aquí abajo se está creando un objeto, con el constructor "new"
 export const provider = new GoogleAuthProvider();
 
 // Método para loguear a usuario con su cuenta de gmail
@@ -158,6 +159,7 @@ export const observer = () => {
   });
 };
 
+// aquí abajo se está creando un objeto Date, con la palabra new
 const postDate = Timestamp.fromDate(new Date());
 
 // Add a new document with a generated id (usamos este método add porque genera un id automático)
