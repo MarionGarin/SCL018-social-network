@@ -8,14 +8,14 @@ export const loginUser = () => {
 
     <div class="container-images">
       <div class="illustration">
-        <img id="illustration" src="img/kambalache_ilustracion.png" alt="man and woman bartering things">
+        <img id="illustration" src="Img/kambalache_ilustracion.png" alt="man and woman bartering things">
       </div>
     </div>
 
     <div class="login-credentials">
 
     <div class="logo">
-        <img id="logo" src="img/kambalache_logo.png" alt="kambalache logo">
+        <img id="logo" src="Img/kambalache_logo.png" alt="kambalache logo">
       </div>
       
       <div class="form">
