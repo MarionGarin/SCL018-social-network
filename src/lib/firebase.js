@@ -58,9 +58,8 @@ export const createUser = (email, password, name) => {
       const user = userCredential.user;
       console.log(user);
       updateProfile(auth.currentUser, {
-        name: auth.currentUser.displayName,
+        displayName: name,
       });
-
       if (user != null) {
         sendEmailVerification(auth.currentUser)
           .then(() => {

@@ -43,10 +43,11 @@ export const registerUser = () => {
 
   const registerBtn = drawRegister.querySelector('#registerBtn');
   registerBtn.addEventListener('click', () => {
+    const name = drawRegister.querySelector('#name').value;
     const email = drawRegister.querySelector('#email').value;
     const password = drawRegister.querySelector('#password').value;
     console.log(email);
-    createUser(email, password);
+    createUser(email, password, name);
   });
   return drawRegister;
 };

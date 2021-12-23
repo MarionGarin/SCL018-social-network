@@ -35,10 +35,16 @@ f) ¿Sería requisito indispensable para ti que esa red verificara la identidad 
 g) Al momento de concretar un trueque, ¿por qué medio te gustaría coordinar el encuentro? (Mensaje interno, whatsapp, correo electrónico, llamada telefónica)
 h) ¿Qué colores asocias a dicha red social? (Pasteles, cálidos, fríos)
 
+De estas entrevistas se extrajo la siguiente información:
+- Ambas usuarias pensaban que en caso de ocupar una red social de trueque, realizarían intercambios una vez por mes.
+- La usuaria A deseaba contar con una red social amigable (es decir, fácil de usar) y además limpia en cuanto a diseño.
+- Ambas usuarias consideraban relevante que en la red se proporcionara información personal sobre los usuarios, tal como su edad y área de residencia, así como otros antecedentes que permitieran deducir su confiabilidad al momento de realizar los trueques (su número de documento de identificación o una breve reseña personal en sus perfiles, por ejemplo).
+- La usuaria A consideraba relevante contar con una "política de trueques", para que las personas usuarias tuvieran claro que debían cumplir ciertos estándares mínimos al momento de realizar intercambios (ej: entregar las cosas en buen estado, no llegar tarde a los encuentros presenciales de trueque, etc.)
+
 
 2.3. PERFILAMIENTO DE USUARIOS:
 
-A raíz de las indagaciones mencionadas, concluimos que nuestros usuarios son hombres y mujeres de entre 20 y 40 años. Se trata de personas informadas y conscientes de los desafíos medioambientales que enfrenta nuestro planeta. Además, valoran de forma especial la idea de extender la vida útil de las cosas en desuso, mediante su intercambio.
+Finalmente, a partir de la Encuesta y las Entrevistas mencionadas, concluimos que nuestros usuarios son hombres y mujeres de entre 20 y 40 años. Se trata de personas informadas y conscientes de los desafíos medioambientales que enfrenta nuestro planeta. Además, valoran de forma especial la idea de extender la vida útil de las cosas en desuso, mediante su intercambio. Sus preocupaciones en torno a una red social hipotética de trueque tienen que ver con realizar intercambios en condiciones claras para ambas partes, y además resguardando su seguridad personal.
 
 
 
@@ -52,7 +58,7 @@ Teníamos en particular un problema a resolver relacionado con los términos de 
 Se hace presente que idealmente dichos Acuerdos de Convivencia también deberían ser accesibles desde el perfil de cada usuario, en caso de que desee revisarlos en cualquier momento. 
 
 
-3.2 Prototipo de baja fidelidad.
+3.2 Prototipo de alta fidelidad.
 
 Al decidir emplear el término "kambalache" nos remontamos al pasado para hacer uso de una palabra popular antigua, por lo que nuestra primera inspiración fueron letreros vintage al estilo de los carteles de pulperías. Nos enfocamos en particular en un letrero que tenía tonalidades llamativas y de ahí obtuvimos nuestra paleta de colores. Luego de indagar en el aspecto visual de diversas redes sociales, definimos el uso que le daríamos a dicha paleta, reservando los tonos más claros para la interfaz general y los más intensos para el texto y pequeños "pops" de color.
 En cuanto a la tipografía, quisimos enfatizar la idea de darle un nuevo uso a lo viejo, y dimos a la palabra kambalache un aspecto moderno en lo visual, por lo que elegimos una tipografía sin serifas, de líneas limpias y fácil lectura a primera impresión. Paralelamente, la tipografía elegida tiene un aspecto desgastado, por lo que a nuestro juicio se equilibran adecuadamente la idea de lo antiguo y lo nuevo. 
@@ -133,7 +139,7 @@ Para publicar, el usuario tiene dos opciones: puede presionar el recuadro que se
 Finalmente, en el extremo derecho del footer existe un ícono que permite al usuario abandonar la sesión, llevándolo nuevamente a la vista de login.js.
 
 
-6. TESTEOS DE USABIILDAD
+6. TESTEOS DE USABILIDAD
 
 Durante el proceso de trabajo, en diversas ocasiones se exhibió la página a usuarias comprendidas dentro del target del producto desarrollado. Ante ellas, el modal tuvo buena aceptación, por lo intuitivo que resultaba su diseño. Por otra parte, se recomendó contar con dos botones que permitieran desplegar dicho modal, ya que podía ser más amigable contar con dos rutas para realizar la misma tarea, según cuál le resultara más sencilla.
 Finalmente, el diseño minimalista de la página también tuvo buena aceptación entre las usuarias. 
